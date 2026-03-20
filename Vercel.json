@@ -1,0 +1,49 @@
+{
+  "outputDirectory": ".",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/first_connect_portal.html" }
+  ]
+}
+```
+
+Your folder should look like:
+```
+first-connect-erp/
+├── first_connect_portal.html
+└── vercel.json
+```
+
+---
+
+## Step 3 — Create a free GitHub account
+Go to **github.com** and sign up if you don't have an account
+
+---
+
+## Step 4 — Upload your folder to GitHub
+1. Go to **github.com/new** to create a new repository
+2. Name it `first-connect-erp`
+3. Click **Create repository**
+4. Click **uploading an existing file**
+5. Drag and drop both files into the upload area
+6. Click **Commit changes**
+
+---
+
+## Step 5 — Create a free Vercel account
+Go to **vercel.com** and sign up using your GitHub account
+
+---
+
+## Step 6 — Deploy on Vercel
+1. On Vercel dashboard click **Add New Project**
+2. Find your `first-connect-erp` repository and click **Import**
+3. Don't change any settings — just click **Deploy**
+4. Wait 30 seconds ⏳
+
+---
+
+## Step 7 — Your ERP is live! 🎉
+Vercel will give you a link like:
+```
+first-connect-erp.vercel.app
